@@ -1,0 +1,12 @@
+:root {
+  color: #3a00e5;
+  text-align: center;
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #3a00e5;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 50% */
+  letter-spacing: 0.4px;
+}
