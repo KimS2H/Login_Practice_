@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/css/NewJoinstyle.css" />
+    <link rel="stylesheet" href="/css/NewJoinstyleguide.css" />
+    <title>Join New Membership</title>
+  </head>
+
+  <body>
+    <div class="NewJoinForm">
+      <div class="Header_Join_New">
+        <div class="Logo_Container">
+          <div class="Logo_Box">
+            <img class="Logo" src="/img/Tamna_Logo.jpg" />
+          </div>
+        </div>
+      </div>
+      <form action="/newJoin" method="POST" id="add-user">
+        <div class="Body_Join_New">
+          <div class="Input_Box">
+            <div class="Empty_Box"></div>
+            <label for="id">
+              <input type="text" name="id" id="id" placeholder="ID" />
+            </label>
+            <div class="check_Box">
+              <div class="cheak_Boolean">TRUE</div>
+            </div>
+          </div>
+
+          <div class="Input_Box">
+            <div class="Empty_Box"></div>
+            <label for="pw">
+              <input type="password" name="pw" id="pw" placeholder="PW" />
+            </label>
+            <div class="Empty_Box"></div>
+          </div>
+
+          <div class="Input_Box">
+            <div class="Empty_Box"></div>
+            <label for="pwcheck">
+              <input
+                type="password"
+                name="pwcheck"
+                id="pwcheck"
+                placeholder="PW CHECK"
+              />
+            </label>
+            <div class="check_Box">
+              <div class="cheak_Boolean">TRUE</div>
+            </div>
+          </div>
+
+          <div class="Input_Box">
+            <div class="Empty_Box"></div>
+            <label for="userEmail">
+              <input
+                type="text"
+                name="userEmail"
+                id="userEmail"
+                placeholder="EMAIL"
+              />
+            </label>
+            <div class="check_Box">
+              <div class="cheak_Boolean">TRUE</div>
+            </div>
+          </div>
+
+          <div class="Input_Box">
+            <div class="Empty_Box"></div>
+            <label for="userTel">
+              <input
+                type="text"
+                name="userTel"
+                id="userTel"
+                placeholder="TEL"
+              />
+            </label>
+            <div class="check_Box">
+              <div class="cheak_Boolean">TRUE</div>
+            </div>
+          </div>
+
+          <div class="Input_Box">
+            <div class="Empty_Box"></div>
+            <label for="username">
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="NAME"
+              />
+            </label>
+            <div class="Empty_Box"></div>
+          </div>
+          <button type="submit" class="btnJoin">JOIN</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
